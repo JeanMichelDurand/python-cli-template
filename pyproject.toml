@@ -25,7 +25,7 @@ Issues = "https://github.com/JeanMichelDurand/python-cli-template/issues"
 Changelog = "https://github.com/JeanMichelDurand/python-cli-template/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "pyinstaller>=6", "ruff"]
+dev = ["pytest>=9.1.1", "pyinstaller>=6", "ruff"]
 
 [project.scripts]
 myproject = "myproject.cli:main"
